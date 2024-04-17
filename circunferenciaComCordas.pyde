@@ -4,16 +4,15 @@ def setup():
 def draw():
     background(255)
     
-    #linha
-    coordenadaDoX = 300
     #coluna
+    coordenadaDoX = 300
+    #linha
     coordenadaDoY = 300
     raio = 50
     comprimento = 200
     strokeWeight(2)
     stroke(1)
     circle(coordenadaDoX, coordenadaDoY, comprimento)
-    print(coordenadaDoX)
     
     #corda verde
     strokeWeight(3)
